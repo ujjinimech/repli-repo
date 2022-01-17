@@ -5,3 +5,5 @@ resources:
   - bitnami-repo.yaml
   - namespace.yaml 
   - release.yaml
+  - mumbai-release.yaml
+  - bangalore-release.yaml
