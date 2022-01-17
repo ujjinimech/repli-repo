@@ -10,8 +10,7 @@ spec:
       chart: nginx
       sourceRef:
         kind: HelmRepository
-        name: bitnami
-      replicas: 2   
+        name: bitnami  
   interval: 1m0s
   releaseName: nginx
   values:
