@@ -10,14 +10,11 @@ spec:
       chart: nginx
       sourceRef:
         kind: HelmRepository
-        name: bitnami
-      version: 9.7.0  
+        name: bitnami 
   interval: 1m0s
   releaseName: nginx
   values:
-    extraEnvVars:
-      - name: FOO
-        value: BAR  
+    replicaCount: 3
         
  
 
