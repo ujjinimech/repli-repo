@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5s
-  path: ./apps/base/nginx
+  path: ./apps/chennai
   prune: true
   timeout: 3m0s
   sourceRef:
