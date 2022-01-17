@@ -4,3 +4,4 @@ namespace: nginx
 resources:
   - bitnami-repo.yaml
   - namespace.yaml 
+  - release.yaml
